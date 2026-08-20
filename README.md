@@ -11,6 +11,13 @@
   </a>
 </div>
 
+<!-- ===== BADGE DO SITE (GitHub Pages — estúdio vintage) ===== -->
+<div align="center" style="padding:10px 0 0 0;">
+
+<a href="https://jayv1i.github.io/JayV1I/"><img src="https://img.shields.io/badge/%F0%9F%8E%AC_ENTRE_NO_MEU_EST%C3%9ADIO-2E1F10?style=for-the-badge&logo=github&logoColor=B39A70" alt="Meu site — GitHub Pages" /></a>
+
+</div>
+
 <!-- ===== FAIXA DE CABEÇALHO ESCURA (estilo cinema vintage) ===== -->
 <div align="center" style="background:#21130a; border-top:3px solid #B39A70; border-bottom:3px solid #B39A70; padding:18px 10px 14px 10px; margin:-2px 0 0 0; box-shadow:0 6px 18px rgba(42,26,14,0.5);">
 
