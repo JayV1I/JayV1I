@@ -98,7 +98,7 @@ Especialista em pipelines de dados end-to-end: ETL automatizado, machine learnin
 
 <p align="center">
   <a href="https://github.com/JayV1I">
-    <img align="center" src="https://github-readme-stats-git-masterrstaa-rztick.vercel.app/api?username=JayV1I&theme=radical&show_icons=true&hide_border=true&count_private=true&title_color=EADCC0&icon_color=F3E5C8&text_color=D9C39A&bg_color=2E1F10" alt="GitHub Stats" />
+    <img align="center" src="https://github-stats-extended.vercel.app/api?username=JayV1I&show_icons=true&hide_border=true&count_private=true&bg_color=2E1F10&title_color=EADCC0&text_color=D9C39A&icon_color=F3E5C8" alt="GitHub Stats" />
   </a>
   <a href="https://github.com/JayV1I">
     <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=JayV1I&theme=radical&hide_border=true&stroke=EADCC0&ring=B39A70&fire=B39A70&currStreakNum=F3E5C8&sideNums=D9C39A&currStreakLabel=D9C39A&sideLabels=D9C39A&dates=D9C39A&background=2E1F10" alt="GitHub Streak" />
@@ -107,7 +107,7 @@ Especialista em pipelines de dados end-to-end: ETL automatizado, machine learnin
 
 <p align="center">
   <a href="https://github.com/JayV1I">
-    <img align="center" src="https://github-profile-trophy.vercel.app/?username=JayV1I&theme=bw&row=1&column=7&no-bg=true&no-frame=true" alt="Troféus do GitHub" />
+    <img align="center" src="https://trophy.benkou.dev/api/?username=JayV1I&theme=bw&row=1&column=7&no-bg=true&no-frame=true" alt="Troféus do GitHub" />
   </a>
 </p>
 
