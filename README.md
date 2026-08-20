@@ -87,6 +87,15 @@ Especialista em pipelines de dados end-to-end: ETL automatizado, machine learnin
 </table>
 
 <!-- ===== ESTATÍSTICAS ===== -->
+
+
+<!-- ===== FAIXA DE SEÇÃO: cartaz vintage ===== -->
+<div align="center">
+
+<img src="./banner-secao-stats.png" alt="Seção — Minhas estatísticas animadas" width="100%" />
+
+</div>
+
 <h3 style="color:#2E1F10;">📊 Minhas estatísticas animadas</h3>
 
 <p align="center">
@@ -105,6 +114,15 @@ Especialista em pipelines de dados end-to-end: ETL automatizado, machine learnin
 </p>
 
 <!-- ===== SOBRE MIM ===== -->
+
+
+<!-- ===== FAIXA DE SEÇÃO: cartaz vintage ===== -->
+<div align="center">
+
+<img src="./banner-secao-sobre.png" alt="Seção — Sobre mim" width="100%" />
+
+</div>
+
 <h3 style="color:#2E1F10;">🎞️ Sobre mim</h3>
 
 <table>
@@ -130,6 +148,15 @@ Especialista em pipelines de dados end-to-end: ETL automatizado, machine learnin
 </table>
 
 <!-- ===== TECNOLOGIAS ===== -->
+
+
+<!-- ===== FAIXA DE SEÇÃO: cartaz vintage ===== -->
+<div align="center">
+
+<img src="./banner-secao-stack.png" alt="Seção — Tecnologias que eu uso" width="100%" />
+
+</div>
+
 <h3 style="color:#2E1F10;">🛠️ Tecnologias que eu uso</h3>
 
 <p align="center">
@@ -137,6 +164,15 @@ Especialista em pipelines de dados end-to-end: ETL automatizado, machine learnin
 </p>
 
 <!-- ===== O QUE ESTOU APRENDENDO ===== -->
+
+
+<!-- ===== FAIXA DE SEÇÃO: cartaz vintage ===== -->
+<div align="center">
+
+<img src="./banner-secao-aprendendo.png" alt="Seção — Aprendendo agora" width="100%" />
+
+</div>
+
 <h3 style="color:#2E1F10;">📚 Aprendendo agora</h3>
 
 <table>
@@ -158,6 +194,15 @@ Especialista em pipelines de dados end-to-end: ETL automatizado, machine learnin
 </table>
 
 <!-- ===== PROJETOS ===== -->
+
+
+<!-- ===== FAIXA DE SEÇÃO: cartaz vintage ===== -->
+<div align="center">
+
+<img src="./banner-secao-projetos.png" alt="Seção — Meus projetos em destaque" width="100%" />
+
+</div>
+
 <h3 style="color:#2E1F10;">🚀 Meus projetos em destaque</h3>
 
 <h4 style="color:#3B2415;">🔹 Monitoramento da Cesta Básica (Azure & Docker)</h4>
@@ -179,6 +224,15 @@ Especialista em pipelines de dados end-to-end: ETL automatizado, machine learnin
 </p>
 
 <!-- ===== GRÁFICO DE CONTRIBUIÇÕES ANIMADO ===== -->
+
+
+<!-- ===== FAIXA DE SEÇÃO: cartaz vintage ===== -->
+<div align="center">
+
+<img src="./banner-secao-contribs.png" alt="Seção — Filmstrip de contribuições" width="100%" />
+
+</div>
+
 <h3 style="color:#2E1F10;">🎞️ Filmstrip de contribuições (365 dias)</h3>
 
 <p align="center">
@@ -188,6 +242,15 @@ Especialista em pipelines de dados end-to-end: ETL automatizado, machine learnin
 </p>
 
 <!-- ===== CONTATO ===== -->
+
+
+<!-- ===== FAIXA DE SEÇÃO: cartaz vintage ===== -->
+<div align="center">
+
+<img src="./banner-secao-contato.png" alt="Seção — Contato — vamos fazer algo juntos!" width="100%" />
+
+</div>
+
 <h3 style="color:#2E1F10;">📬 Contato — vamos fazer algo juntos!</h3>
 
 <table>
