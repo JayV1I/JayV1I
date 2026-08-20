@@ -114,7 +114,7 @@ Seja bem-vindo ao meu cantinho, desenhado à moda antiga! Sou **Assistente de Da
 
 Enquanto você lê isso, eu estou:
 
-- Aplicando **machine learning** em +800 mil registros: clusterização (K-Means/DBSCAN), séries temporais (Prophet) e classificação supervisionada
+- Aplicando **machine learning** em +1,2 milhões de registros: clusterização (K-Means/DBSCAN), séries temporais (Prophet) e classificação supervisionada
 - Substituindo rotinas 100% manuais por **automação ETL** em Python — já economizei ~12 horas/semana!
 - Levando soluções de dados para a **nuvem Azure** com CI/CD automatizado via GitHub Actions
 - Tomando café ☕ e voltando pro código com força total
@@ -127,9 +127,9 @@ Enquanto você lê isso, eu estou:
 </table>
 
 <!-- ===== PROJETOS ===== -->
-### 🚀 Meus projetos em destaque
+### 🚀 Meus projetos em destaque e públicos
 
-### 🔹 Monitoramento da Cesta Básica (Azure & Docker)
+### 🔹 Monitoramento da Cesta Básica/ Azure & Docker (Puc campinas)
 
 Plataforma de monitoramento de preços da cesta básica com Python, ML e cloud. Dashboards interativos em Dash/Plotly, segmentação com PCA + KMeans, containerização com Docker e deploy no Azure (Container Apps, ACR, Blob Storage), com CI/CD totalmente automatizado via GitHub Actions.
 
