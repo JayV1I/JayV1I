@@ -16,7 +16,7 @@
 
 > **Analista de Dados e I.A | Ciência de Dados — PUC Campinas**
 >
-> Especialista em pipelines de dados end-to-end: ETL automatizado, machine learning em produção (+800 mil registros) e 33 dashboards de Power BI em clientes de logística. Focado em transformar dados brutos em decisões estratégicas com Python, Azure e CI/CD.
+> Especialista em pipelines de dados end-to-end: ETL automatizado, machine learning em produção (+1,2 milhão de registros) e 33 dashboards de Power BI em clientes de logística. Focado em transformar dados brutos em decisões estratégicas com Python, Azure e CI/CD.
 
 </div>
 
@@ -47,7 +47,7 @@ Seja bem-vindo ao meu cantinho, desenhado à moda antiga! Sou **Assistente de Da
 
 - 🚀 **Pipeline completo de dados**: da extração web e ETL automatizado até ML em produção
 - 🛠️ **Power BI**: responsável por 33 dashboards de produção para clientes de logística
-- 🤖 **Machine Learning**: +800 mil registros de não conformidades e sinistros
+- 🤖 **Machine Learning**: +1,2 milhão de registros de não conformidades e sinistros
 - ☁️ **Azure & Docker**: deploy na nuvem com CI/CD via GitHub Actions
 - 💪 E a energia de quem economizou ~12 horas/semana com automação
 
@@ -86,7 +86,7 @@ Seja bem-vindo ao meu cantinho, desenhado à moda antiga! Sou **Assistente de Da
     </td>
     <td valign="middle" width="60%">
 
-**Assistente de Análise de Dados e I.A na CCI Gris**, responsável por todo o pipeline de dados — da extração web e automação de ETL até machine learning e entrega em Power BI. Aplicando ML sobre dado real de produção (+800 mil registros), substituindo processos manuais por automação e levando soluções de dados para a nuvem (Azure).
+**Assistente de Análise de Dados e I.A na CCI Gris**, responsável por todo o pipeline de dados — da extração web e automação de ETL até machine learning e entrega em Power BI. Aplicando ML sobre dado real de produção (+1,2 milhão de registros), substituindo processos manuais por automação e levando soluções de dados para a nuvem (Azure).
 
 | Característica | Descrição |
 |---|---|
@@ -119,7 +119,7 @@ Seja bem-vindo ao meu cantinho, desenhado à moda antiga! Sou **Assistente de Da
 
 Enquanto você lê isso, eu estou:
 
-- Aplicando **machine learning** em +800 mil registros: clusterização (K-Means/DBSCAN), séries temporais (Prophet) e classificação supervisionada
+- Aplicando **machine learning** em +1,2 milhão de registros: clusterização (K-Means/DBSCAN), séries temporais (Prophet) e classificação supervisionada
 - Substituindo rotinas 100% manuais por **automação ETL** em Python — já economizei ~12 horas/semana!
 - Levando soluções de dados para a **nuvem Azure** com CI/CD automatizado via GitHub Actions
 - Tomando café ☕ e voltando pro código com força total
