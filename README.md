@@ -42,9 +42,9 @@ Seja bem-vindo ao meu cantinho, desenhado à moda antiga! Sou **Assistente de Da
 
 - 🚀 **Pipeline completo de dados**: da extração web e ETL automatizado até ML em produção
 - 🛠️ **Power BI**: responsável por 33 dashboards de produção para clientes de logística
-- 🤖 **Machine Learning**: +800 mil registros de não conformidades e sinistros
+- 🤖 **Machine Learning**: +1,2 milhões de registros de não conformidades, sinistros e operações
 - ☁️ **Azure & Docker**: deploy na nuvem com CI/CD via GitHub Actions
-- 💪 E a energia de quem economizou ~12 horas/semana com automação
+- 💪 E a energia de quem economizou ~15 horas/semana de trabalho, com automações
 
     </td>
     <td valign="middle" width="40%" align="center">
