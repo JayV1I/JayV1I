@@ -1,10 +1,11 @@
 <!--
   README do João Vitor — Estilo Cartoon Preto e Branco Anos 30 (moldura de filme)
   Personalizado com os dados do currículo: CCI Gris, PUC Campinas, stack de Dados e I.A
+  Fundo vintage: todo o conteúdo dentro de um container sépia escuro
 -->
 
 <!-- ===== BANNER SVG INTERATIVO ===== -->
-<div align="center">
+<div align="center" id="topo">
   <a href="https://github.com/JayV1I">
     <img src="./banner-jayv1i.svg" alt="Banner interativo — João Vitor no estilo desenho animado anos 30" width="100%" />
   </a>
@@ -21,29 +22,38 @@
 
 </div>
 
+<!-- ===== CONTAINER DE FUNDO VINTAGE (pinta a "caixa" toda) ===== -->
+<div style="background:linear-gradient(180deg,#F3E5C8 0%,#EADCC0 100%); border-left:6px solid #2E1F10; border-right:6px solid #2E1F10; padding:22px 24px 18px 24px;">
+
+<!-- ===== BOAS-VINDAS ===== -->
 <div align="center">
 
-# Olá, eu sou o João Vitor! 👋🎞️
+<h1 style="margin:0; font-size:32px; color:#2E1F10;">
+Olá, eu sou o João Vitor! 👋🎞️</h1>
 
-> **Analista de Dados e I.A | Ciência de Dados — PUC Campinas**
->
-> Especialista em pipelines de dados end-to-end: ETL automatizado, machine learning em produção, Power BI em clientes de logística e eficiência empresarial. Focado em transformar dados brutos em decisões estratégicas com visão estatistica utilizando Python, Azure, CI/CD e LLMs.
+<blockquote style="border-left:4px solid #3B2415; background:#EADCC0; color:#2E1F10; padding:10px 16px; text-align:left; margin:14px 8px;">
+
+<strong>Analista de Dados e I.A | Ciência de Dados — PUC Campinas</strong>
+
+Especialista em pipelines de dados end-to-end: ETL automatizado, machine learning em produção, Power BI em clientes de logística e eficiência empresarial. Focado em transformar dados brutos em decisões estratégicas com visão estatistica utilizando Python, Azure, CI/CD e LLMs.
+
+</blockquote>
 
 </div>
 
 <!-- ===== BADGES INTERATIVAS (clicáveis) ===== -->
 <p align="center">
   <a href="https://raw.githubusercontent.com/JayV1I/curriculo/main/Curriculo_JoaoVitor.pdf">
-    <img src="https://img.shields.io/badge/📄_MEU_CURRÍCULO-Baixar_PDF-000000?style=for-the-badge" alt="Meu Currículo (PDF)" />
+    <img src="https://img.shields.io/badge/📄_MEU_CURRÍCULO-Baixar_PDF-2E1F10?style=for-the-badge" alt="Meu Currículo (PDF)" />
   </a>
   <a href="https://github.com/JayV1I?tab=repositories">
-    <img src="https://img.shields.io/badge/Data_Science-_Portfólio-000000?style=for-the-badge" alt="Data Science Portfólio" />
+    <img src="https://img.shields.io/badge/Data_Science-_Portfólio-2E1F10?style=for-the-badge" alt="Data Science Portfólio" />
   </a>
   <a href="https://www.linkedin.com/in/jvitorop">
-    <img src="https://img.shields.io/badge/LinkedIn-_-000000?style=for-the-badge&logo=linkedin" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-_-2E1F10?style=for-the-badge&logo=linkedin" alt="LinkedIn" />
   </a>
   <a href="mailto:Terabyteplay@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Manda_um_Oi!-000000?style=for-the-badge" alt="Email" />
+    <img src="https://img.shields.io/badge/Email-Manda_um_Oi!-2E1F10?style=for-the-badge" alt="Email" />
   </a>
 </p>
 
@@ -52,9 +62,9 @@
   <tr>
     <td valign="top" width="60%">
 
-### 🎬 O que você vai encontrar aqui
+<h3 style="color:#2E1F10;">🎬 O que você vai encontrar aqui</h3>
 
-Seja bem-vindo ao meu bloco, desenhado à moda antiga! Sou **Assistente de Dados e I.A na CCI Gerenciamento de Riscos (CCI Gris)** e estudante de **Ciência de Dados e I.A na PUC Campinas**. Aqui você vai encontrar meus projetos, tecnologias e histórias — tudo num visual de **desenho animado clássico em preto e branco**. 🎞️
+<font color="#2E1F10">Seja bem-vindo ao meu bloco, desenhado à moda antiga! Sou **Assistente de Dados e I.A na CCI Gerenciamento de Riscos (CCI Gris)** e estudante de **Ciência de Dados e I.A na PUC Campinas**. Aqui você vai encontrar meus projetos, tecnologias e histórias — tudo num visual de **desenho animado clássico em preto e branco**. 🎞️</font>
 
 - 🚀 **Pipeline completo de dados**: da extração web e ETL automatizado até ML em produção
 - 🛠️ **Power BI**: responsável por 33 dashboards de produção para clientes de logística
@@ -70,14 +80,14 @@ Seja bem-vindo ao meu bloco, desenhado à moda antiga! Sou **Assistente de Dados
 </table>
 
 <!-- ===== ESTATÍSTICAS ===== -->
-### 📊 Minhas estatísticas animadas
+<h3 style="color:#2E1F10;">📊 Minhas estatísticas animadas</h3>
 
 <p align="center">
   <a href="https://github.com/JayV1I">
-    <img align="center" src="https://github-readme-stats-git-masterrstaa-rztick.vercel.app/api?username=JayV1I&theme=graywhite&show_icons=true&hide_border=true&count_private=true&title_color=000000&icon_color=000000&text_color=000000&bg_color=ffffff" alt="GitHub Stats" />
+    <img align="center" src="https://github-readme-stats-git-masterrstaa-rztick.vercel.app/api?username=JayV1I&theme=radical&show_icons=true&hide_border=true&count_private=true&title_color=EADCC0&icon_color=F3E5C8&text_color=D9C39A&bg_color=2E1F10" alt="GitHub Stats" />
   </a>
   <a href="https://github.com/JayV1I">
-    <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=JayV1I&theme=bw&hide_border=true&stroke=000000&ring=000000&fire=000000&currStreakNum=000000&sideNums=000000&currStreakLabel=000000&sideLabels=000000&dates=000000&background=FFFFFF" alt="GitHub Streak" />
+    <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=JayV1I&theme=radical&hide_border=true&stroke=EADCC0&ring=B39A70&fire=B39A70&currStreakNum=F3E5C8&sideNums=D9C39A&currStreakLabel=D9C39A&sideLabels=D9C39A&dates=D9C39A&background=2E1F10" alt="GitHub Streak" />
   </a>
 </p>
 
@@ -88,7 +98,7 @@ Seja bem-vindo ao meu bloco, desenhado à moda antiga! Sou **Assistente de Dados
 </p>
 
 <!-- ===== SOBRE MIM ===== -->
-### 🎞️ Sobre mim
+<h3 style="color:#2E1F10;">🎞️ Sobre mim</h3>
 
 <table>
   <tr>
@@ -97,7 +107,7 @@ Seja bem-vindo ao meu bloco, desenhado à moda antiga! Sou **Assistente de Dados
     </td>
     <td valign="middle" width="60%">
 
-**Assistente de Análise de Dados e I.A na CCI Gris**, responsável por todo o pipeline de dados — da extração web e automação de ETL até machine learning e entrega em Power BI. Aplicando ML sobre dado real de produção (+1,2 milhão de registros), substituindo processos manuais por automação e levando soluções de dados para a nuvem (Azure).
+<font color="#2E1F10">**Assistente de Análise de Dados e I.A na CCI Gris**, responsável por todo o pipeline de dados — da extração web e automação de ETL até machine learning e entrega em Power BI. Aplicando ML sobre dado real de produção (+1,2 milhão de registros), substituindo processos manuais por automação e levando soluções de dados para a nuvem (Azure).</font>
 
 | Característica | Descrição |
 |---|---|
@@ -113,22 +123,20 @@ Seja bem-vindo ao meu bloco, desenhado à moda antiga! Sou **Assistente de Dados
 </table>
 
 <!-- ===== TECNOLOGIAS ===== -->
-### 🛠️ Tecnologias que eu uso
+<h3 style="color:#2E1F10;">🛠️ Tecnologias que eu uso</h3>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=js,ts,html,css,react,nodejs,python,git,azure,docker,postgresql&theme=light" alt="Tecnologias" />
 </p>
 
-
-
 <!-- ===== O QUE ESTOU APRENDENDO ===== -->
-### 📚 Aprendendo agora
+<h3 style="color:#2E1F10;">📚 Aprendendo agora</h3>
 
 <table>
   <tr>
     <td valign="middle" width="65%">
 
-Enquanto você lê isso, eu estou:
+<font color="#2E1F10">Enquanto você lê isso, eu estou:</font>
 
 - Aplicando **machine learning** em +1,2 milhão de registros: clusterização (K-Means/DBSCAN), séries temporais (Prophet) e classificação supervisionada
 - Substituindo rotinas 100% manuais por **automação ETL** em Python — já economizei ~12 horas/semana!
@@ -143,37 +151,37 @@ Enquanto você lê isso, eu estou:
 </table>
 
 <!-- ===== PROJETOS ===== -->
-### 🚀 Meus projetos em destaque
+<h3 style="color:#2E1F10;">🚀 Meus projetos em destaque</h3>
 
-### 🔹 Monitoramento da Cesta Básica (Azure & Docker)
+<h4 style="color:#3B2415;">🔹 Monitoramento da Cesta Básica (Azure & Docker)</h4>
 
-Plataforma de monitoramento de preços da cesta básica com Python, ML e cloud. Dashboards interativos em Dash/Plotly, segmentação com PCA + KMeans, containerização com Docker e deploy no Azure (Container Apps, ACR, Blob Storage), com CI/CD totalmente automatizado via GitHub Actions.
+<font color="#2E1F10">Plataforma de monitoramento de preços da cesta básica com Python, ML e cloud. Dashboards interativos em Dash/Plotly, segmentação com PCA + KMeans, containerização com Docker e deploy no Azure (Container Apps, ACR, Blob Storage), com CI/CD totalmente automatizado via GitHub Actions.</font>
 
-### 🔹 Road Scan Dashboard (CCI Gris)
+<h4 style="color:#3B2415;">🔹 Road Scan Dashboard (CCI Gris)</h4>
 
-Solução ponta a ponta para análise de acidentes rodoviários no Brasil: ETL, análise exploratória (EDA), modelagem preditiva com Random Forest, PostgreSQL e dashboard interativo em React. Feature engineering e BI para transformar dados brutos de acidentes em insights acionáveis de risco.
+<font color="#2E1F10">Solução ponta a ponta para análise de acidentes rodoviários no Brasil: ETL, análise exploratória (EDA), modelagem preditiva com Random Forest, PostgreSQL e dashboard interativo em React. Feature engineering e BI para transformar dados brutos de acidentes em insights acionáveis de risco.</font>
 
-### 🔹 Automação RPA e ETL (CCI Gris)
+<h4 style="color:#3B2415;">🔹 Automação RPA e ETL (CCI Gris)</h4>
 
-Automação ponta a ponta do pipeline de ETL de logística em Python: extração automatizada de relatórios web (requests, Selenium), consolidação e deduplicação com pandas/openpyxl e publicação automática de dashboards no Power BI via RPA (Power Automate Desktop). Substituí uma rotina 100% manual, economizando ~12 horas/semana e garantindo que 33 dashboards atualizem toda manhã.
+<font color="#2E1F10">Automação ponta a ponta do pipeline de ETL de logística em Python: extração automatizada de relatórios web (requests, Selenium), consolidação e deduplicação com pandas/openpyxl e publicação automática de dashboards no Power BI via RPA (Power Automate Desktop). Substituí uma rotina 100% manual, economizando ~12 horas/semana e garantindo que 33 dashboards atualizem toda manhã.</font>
 
 <p align="center">
   <a href="https://github.com/JayV1I?tab=repositories">
-    <img src="https://img.shields.io/badge/Ver_TODOS_os_meus_projetos-000000?style=for-the-badge" alt="Ver todos os projetos" />
+    <img src="https://img.shields.io/badge/Ver_TODOS_os_meus_projetos-2E1F10?style=for-the-badge" alt="Ver todos os projetos" />
   </a>
 </p>
 
 <!-- ===== GRÁFICO DE CONTRIBUIÇÕES ANIMADO ===== -->
-### 🎞️ Filmstrip de contribuições (365 dias)
+<h3 style="color:#2E1F10;">🎞️ Filmstrip de contribuições (365 dias)</h3>
 
 <p align="center">
   <a href="https://github.com/JayV1I">
-    <img src="https://ghchart.rshah.org/000000/JayV1I" alt="Gráfico de contribuições" />
+    <img src="https://ghchart.rshah.org/3B2415/JayV1I" alt="Gráfico de contribuições" />
   </a>
 </p>
 
 <!-- ===== CONTATO ===== -->
-### 📬 Contato — vamos fazer algo juntos!
+<h3 style="color:#2E1F10;">📬 Contato — vamos fazer algo juntos!</h3>
 
 <table>
   <tr>
@@ -182,7 +190,7 @@ Automação ponta a ponta do pipeline de ETL de logística em Python: extração
     </td>
     <td valign="middle" width="60%">
 
-Se você quer bater um papo, trabalhar num projeto junto ou só mandar um oi, minha porta está sempre aberta! 🚀
+<font color="#2E1F10">Se você quer bater um papo, trabalhar num projeto junto ou só mandar um oi, minha porta está sempre aberta! 🚀</font>
 
 - 📧 Email: **Terabyteplay@gmail.com**
 - 💼 LinkedIn: [linkedin.com/in/jvitorop](https://www.linkedin.com/in/jvitorop)
@@ -195,12 +203,15 @@ Se você quer bater um papo, trabalhar num projeto junto ou só mandar um oi, mi
 <!-- ===== RODAPÉ ===== -->
 <p align="center">
   <a href="#topo">
-    <img src="https://img.shields.io/badge/⬆_Voltar_ao_topo-000000?style=for-the-badge" alt="Voltar ao topo" />
+    <img src="https://img.shields.io/badge/⬆_Voltar_ao_topo-2E1F10?style=for-the-badge" alt="Voltar ao topo" />
   </a>
 </p>
 
 <div align="center">
-  <sub>Desenhado à mão em preto e branco • Est. 2026 • <a href="https://github.com/JayV1I">@JayV1I</a></sub>
+  <sub style="color:#3B2415;">Desenhado à mão em preto e branco • Est. 2026 • <a href="https://github.com/JayV1I">@JayV1I</a></sub>
 </div>
+
+</div>
+<!-- fim do container de fundo vintage -->
 
 <!-- créditos das artes: personagem e ilustrações gerados por IA no estilo cartoon anos 30 -->
