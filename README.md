@@ -50,8 +50,8 @@ Especialista em pipelines de dados end-to-end: ETL automatizado, machine learnin
 
 <!-- ===== BADGES INTERATIVAS (clicáveis) ===== -->
 <p align="center">
-  <a href="https://raw.githubusercontent.com/JayV1I/curriculo/main/Curriculo_JoaoVitor.pdf">
-    <img src="https://img.shields.io/badge/📄_MEU_CURRÍCULO-Baixar_PDF-2E1F10?style=for-the-badge" alt="Meu Currículo (PDF)" />
+  <a href="https://jayv1i.github.io/curriculo/">
+    <img src="https://img.shields.io/badge/📄_MEU_CURRÍCULO-jayv1i.github.io/curriculo-2E1F10?style=for-the-badge" alt="Meu Currículo (PDF)" />
   </a>
   <a href="https://github.com/JayV1I?tab=repositories">
     <img src="https://img.shields.io/badge/Data_Science-_Portfólio-2E1F10?style=for-the-badge" alt="Data Science Portfólio" />
