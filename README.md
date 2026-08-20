@@ -6,7 +6,7 @@
 <!-- ===== BANNER SVG INTERATIVO ===== -->
 <div align="center">
   <a href="https://github.com/JayV1I">
-    <img src="./assets/banner-jayv1i.svg" alt="Banner interativo — João Vitor no estilo desenho animado anos 30" width="100%" />
+    <img src="./banner-jayv1i.svg" alt="Banner interativo — João Vitor no estilo desenho animado anos 30" width="100%" />
   </a>
 </div>
 
@@ -48,7 +48,7 @@ Seja bem-vindo ao meu cantinho, desenhado à moda antiga! Sou **Assistente de Da
 
     </td>
     <td valign="middle" width="40%" align="center">
-      <img src="./assets/personagem-hi.png" alt="Eu acenando — cartoon anos 30" width="250" />
+      <img src="./personagem-hi.png" alt="Eu acenando — cartoon anos 30" width="250" />
     </td>
   </tr>
 </table>
@@ -77,7 +77,7 @@ Seja bem-vindo ao meu cantinho, desenhado à moda antiga! Sou **Assistente de Da
 <table>
   <tr>
     <td valign="middle" width="40%" align="center">
-      <img src="./assets/personagem-forcinha.png" alt="Eu levantando peso — cartoon anos 30" width="230" />
+      <img src="./personagem-forcinha.png" alt="Eu levantando peso — cartoon anos 30" width="230" />
     </td>
     <td valign="middle" width="60%">
 
@@ -121,7 +121,7 @@ Enquanto você lê isso, eu estou:
 
     </td>
     <td valign="middle" width="35%" align="center">
-      <img src="./assets/personagem-cafe.png" alt="Tomando café — cartoon anos 30" width="200" />
+      <img src="./personagem-cafe.png" alt="Tomando café — cartoon anos 30" width="200" />
     </td>
   </tr>
 </table>
@@ -162,7 +162,7 @@ Automação ponta a ponta do pipeline de ETL de logística em Python: extração
 <table>
   <tr>
     <td valign="middle" width="40%" align="center">
-      <img src="./assets/personagem-foguete.png" alt="Foguete cartoon — vamos decolar!" width="200" />
+      <img src="./personagem-foguete.png" alt="Foguete cartoon — vamos decolar!" width="200" />
     </td>
     <td valign="middle" width="60%">
 
