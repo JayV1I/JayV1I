@@ -6,7 +6,7 @@
 <!-- ===== BANNER SVG INTERATIVO ===== -->
 <div align="center">
   <a href="https://github.com/JayV1I">
-    <img src="./banner-jayv1i.svg" alt="Banner interativo — João Vitor no estilo desenho animado anos 30" width="100%" />
+    <img src="./assets/banner-jayv1i.svg" alt="Banner interativo — João Vitor no estilo desenho animado anos 30" width="100%" />
   </a>
 </div>
 
@@ -14,14 +14,19 @@
 
 # Olá, eu sou o João Vitor! 👋🎞️
 
-> *Direto dos anos 30, num desenho animado em preto e branco: assistente de dados e I.A com cabelo cacheado, braços fortes e +800 mil registros de ML na bagagem.*
+> **Analista de Dados e I.A | Ciência de Dados — PUC Campinas**
+>
+> Especialista em pipelines de dados end-to-end: ETL automatizado, machine learning em produção (+800 mil registros) e 33 dashboards de Power BI em clientes de logística. Focado em transformar dados brutos em decisões estratégicas com Python, Azure e CI/CD.
 
 </div>
 
 <!-- ===== BADGES INTERATIVAS (clicáveis) ===== -->
 <p align="center">
-  <a href="https://github.com/JayV1I">
-    <img src="https://img.shields.io/badge/Data_Science-_-000000?style=for-the-badge" alt="Data Science" />
+  <a href="https://raw.githubusercontent.com/JayV1I/curriculo/main/Curriculo_JoaoVitor.pdf">
+    <img src="https://img.shields.io/badge/📄_MEU_CURRÍCULO-Baixar_PDF-000000?style=for-the-badge" alt="Meu Currículo (PDF)" />
+  </a>
+  <a href="https://github.com/JayV1I?tab=repositories">
+    <img src="https://img.shields.io/badge/Data_Science-_Portfólio-000000?style=for-the-badge" alt="Data Science Portfólio" />
   </a>
   <a href="https://www.linkedin.com/in/jvitorop">
     <img src="https://img.shields.io/badge/LinkedIn-_-000000?style=for-the-badge&logo=linkedin" alt="LinkedIn" />
@@ -42,13 +47,13 @@ Seja bem-vindo ao meu cantinho, desenhado à moda antiga! Sou **Assistente de Da
 
 - 🚀 **Pipeline completo de dados**: da extração web e ETL automatizado até ML em produção
 - 🛠️ **Power BI**: responsável por 33 dashboards de produção para clientes de logística
-- 🤖 **Machine Learning**: +1,2 milhões de registros de não conformidades, sinistros e operações
+- 🤖 **Machine Learning**: +800 mil registros de não conformidades e sinistros
 - ☁️ **Azure & Docker**: deploy na nuvem com CI/CD via GitHub Actions
-- 💪 E a energia de quem economizou ~15 horas/semana de trabalho, com automações
+- 💪 E a energia de quem economizou ~12 horas/semana com automação
 
     </td>
     <td valign="middle" width="40%" align="center">
-      <img src="./personagem-hi.png" alt="Eu acenando — cartoon anos 30" width="250" />
+      <img src="./assets/personagem-hi.png" alt="Eu acenando — cartoon anos 30" width="250" />
     </td>
   </tr>
 </table>
@@ -77,7 +82,7 @@ Seja bem-vindo ao meu cantinho, desenhado à moda antiga! Sou **Assistente de Da
 <table>
   <tr>
     <td valign="middle" width="40%" align="center">
-      <img src="./personagem-forcinha.png" alt="Eu levantando peso — cartoon anos 30" width="230" />
+      <img src="./assets/personagem-forcinha.png" alt="Eu levantando peso — cartoon anos 30" width="230" />
     </td>
     <td valign="middle" width="60%">
 
@@ -89,7 +94,7 @@ Seja bem-vindo ao meu cantinho, desenhado à moda antiga! Sou **Assistente de Da
 | 🎓 Formação | Ciência de Dados e I.A — PUC Campinas (2023-2027) |
 | 🐍 Stack | Python, Pandas, Scikit-learn, PySpark, SQL/NoSQL |
 | ☁️ Cloud | Azure (Container Apps, Blob Storage), Docker, CI/CD |
-| 📊 BI | Power BI (33 dashboards), Power Automate, Excel/VBA |
+| 🗄️ Dados & BI | PostgreSQL, Power BI (33 dashboards), Power Automate, Excel/VBA |
 | 🌀 Cabelo | Cacheado, volumoso e com personalidade |
 
     </td>
@@ -100,7 +105,7 @@ Seja bem-vindo ao meu cantinho, desenhado à moda antiga! Sou **Assistente de Da
 ### 🛠️ Tecnologias que eu uso
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,html,css,react,nodejs,python,git&theme=light" alt="Tecnologias" />
+  <img src="https://skillicons.dev/icons?i=js,ts,html,css,react,nodejs,python,git,azure,docker,postgresql&theme=light" alt="Tecnologias" />
 </p>
 
 > **Editando acima é fácil:** acesse [skillicons.dev](https://skillicons.dev), escolha suas tecnologias e copie o novo link no lugar do que está aí.
@@ -114,22 +119,22 @@ Seja bem-vindo ao meu cantinho, desenhado à moda antiga! Sou **Assistente de Da
 
 Enquanto você lê isso, eu estou:
 
-- Aplicando **machine learning** em +1,2 milhões de registros: clusterização (K-Means/DBSCAN), séries temporais (Prophet) e classificação supervisionada
+- Aplicando **machine learning** em +800 mil registros: clusterização (K-Means/DBSCAN), séries temporais (Prophet) e classificação supervisionada
 - Substituindo rotinas 100% manuais por **automação ETL** em Python — já economizei ~12 horas/semana!
 - Levando soluções de dados para a **nuvem Azure** com CI/CD automatizado via GitHub Actions
 - Tomando café ☕ e voltando pro código com força total
 
     </td>
     <td valign="middle" width="35%" align="center">
-      <img src="./personagem-cafe.png" alt="Tomando café — cartoon anos 30" width="200" />
+      <img src="./assets/personagem-cafe.png" alt="Tomando café — cartoon anos 30" width="200" />
     </td>
   </tr>
 </table>
 
 <!-- ===== PROJETOS ===== -->
-### 🚀 Meus projetos em destaque e públicos
+### 🚀 Meus projetos em destaque
 
-### 🔹 Monitoramento da Cesta Básica/ Azure & Docker (Puc campinas)
+### 🔹 Monitoramento da Cesta Básica (Azure & Docker)
 
 Plataforma de monitoramento de preços da cesta básica com Python, ML e cloud. Dashboards interativos em Dash/Plotly, segmentação com PCA + KMeans, containerização com Docker e deploy no Azure (Container Apps, ACR, Blob Storage), com CI/CD totalmente automatizado via GitHub Actions.
 
@@ -162,7 +167,7 @@ Automação ponta a ponta do pipeline de ETL de logística em Python: extração
 <table>
   <tr>
     <td valign="middle" width="40%" align="center">
-      <img src="./personagem-foguete.png" alt="Foguete cartoon — vamos decolar!" width="200" />
+      <img src="./assets/personagem-foguete.png" alt="Foguete cartoon — vamos decolar!" width="200" />
     </td>
     <td valign="middle" width="60%">
 
