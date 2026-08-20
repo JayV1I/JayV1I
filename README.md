@@ -10,6 +10,17 @@
   </a>
 </div>
 
+<!-- ===== FAIXA DE CABEÇALHO ESCURA (estilo cinema vintage) ===== -->
+<div align="center" style="background:#21130a; border-top:3px solid #B39A70; border-bottom:3px solid #B39A70; padding:18px 10px 14px 10px; margin:-2px 0 0 0; box-shadow:0 6px 18px rgba(42,26,14,0.5);">
+
+<h3 style="margin:0; font-size:26px; color:#F3E5C8; letter-spacing:2px;">JOÃO VITOR — <span style="color:#B39A70;">JAYVI</span> 🎬</h3>
+
+<p style="margin:6px 0 0 0; font-size:14px; color:#D9C39A; letter-spacing:1px;">ANALISTA DE DADOS E I.A · CIÊNCIA DE DADOS — PUC CAMPINAS · CCI GRIS</p>
+
+<p style="margin:6px 0 0 0; font-size:12px; color:#8C6F48;">🎞️ "direto dos anos 30, no clima Steamboat Willie" &nbsp;·&nbsp; @JayV1I</p>
+
+</div>
+
 <div align="center">
 
 # Olá, eu sou o João Vitor! 👋🎞️
