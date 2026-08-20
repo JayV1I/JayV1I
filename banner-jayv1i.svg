@@ -15,12 +15,12 @@
   </filter>
   <filter id="soft"><feGaussianBlur stdDeviation="4"/></filter>
   <style>
-    .ink{fill:#14120F} .pap{fill:#F1EEE4} .gry{fill:#A9A59B}
-    .ol{fill:none;stroke:#14120F;stroke-linecap:round;stroke-linejoin:round}
-    .hose{fill:none;stroke:#14120F;stroke-linecap:round;stroke-linejoin:round}
-    .limb{fill:#F1EEE4;stroke:#14120F;stroke-width:5;stroke-linecap:round;stroke-linejoin:round}
+    .ink{fill:#3B2415} .pap{fill:#F3E5C8} .gry{fill:#B39A70}
+    .ol{fill:none;stroke:#3B2415;stroke-linecap:round;stroke-linejoin:round}
+    .hose{fill:none;stroke:#3B2415;stroke-linecap:round;stroke-linejoin:round}
+    .limb{fill:#F3E5C8;stroke:#3B2415;stroke-width:5;stroke-linecap:round;stroke-linejoin:round}
     .ttl{font-family:'Arial Black','Arial Bold',Arial,Helvetica,sans-serif;font-weight:900}
-    .sub{font-family:'Arial Black','Arial Bold',Arial,Helvetica,sans-serif;font-weight:900;letter-spacing:5;fill:#14120F}
+    .sub{font-family:'Arial Black','Arial Bold',Arial,Helvetica,sans-serif;font-weight:900;letter-spacing:5;fill:#3B2415}
   </style>
 </defs>
 
@@ -36,11 +36,11 @@
     values="0 0; 1 -1; -1 0; 0 1; 1 1; -1 -1; 0 0; 1 0; -1 1; 0 -1"/>
 
   <rect x="4" y="24" width="992" height="272" fill="url(#sky)"/>
-  <g fill="#C2BFB6" opacity=".55">
+  <g fill="#C9B08A" opacity=".55">
     <ellipse cx="800" cy="80" rx="110" ry="24"/><ellipse cx="740" cy="66" rx="64" ry="18"/>
     <ellipse cx="320" cy="58" rx="84" ry="18"/>
   </g>
-  <g stroke="#5F5C55" stroke-width="2" opacity=".45">
+  <g stroke="#8C6F48" stroke-width="2" opacity=".45">
     <path d="M0 216 L1000 216"/><path d="M0 242 L1000 242"/><path d="M0 270 L1000 270"/>
   </g>
 
@@ -49,13 +49,13 @@
    <!-- balanço do corpo inteiro -->
    <animateTransform attributeName="transform" type="rotate" values="-1.5 200 280; 1.5 200 280; -1.5 280" dur="3.6s" repeatCount="indefinite" additive="sum"/>
 
-   <ellipse cx="200" cy="281" rx="86" ry="11" fill="#3A3833" opacity=".45" filter="url(#soft)"/>
+   <ellipse cx="200" cy="281" rx="86" ry="11" fill="#6E5432" opacity=".45" filter="url(#soft)"/>
 
    <!-- pernas -->
    <path class="hose" stroke-width="23" d="M180 200 C170 226 166 244 168 258"/>
    <path class="hose" stroke-width="23" d="M220 200 C230 226 234 244 232 258"/>
-   <path class="hose" stroke="#F1EEE4" stroke-width="14" d="M180 202 C171 226 167 243 169 256"/>
-   <path class="hose" stroke="#F1EEE4" stroke-width="14" d="M220 202 C229 226 233 243 231 256"/>
+   <path class="hose" stroke="#F3E5C8" stroke-width="14" d="M180 202 C171 226 167 243 169 256"/>
+   <path class="hose" stroke="#F3E5C8" stroke-width="14" d="M220 202 C229 226 233 243 231 256"/>
    <path class="gry" d="M186 206 C180 228 177 244 179 256 l-8 0 C169 243 172 226 179 204 Z" opacity=".75"/>
    <path class="gry" d="M226 206 C232 228 235 244 233 256 l8 0 C241 243 238 226 231 204 Z" opacity=".75"/>
 
@@ -67,23 +67,23 @@
 
    <!-- bermuda -->
    <path class="ink" d="M162 186 C176 178 224 178 238 186 C242 198 238 210 232 214 C214 220 186 220 168 214 C162 210 158 198 162 186 Z"/>
-   <path class="ol" stroke-width="3" stroke="#F1EEE4" d="M170 196 L230 196" opacity=".5"/>
+   <path class="ol" stroke-width="3" stroke="#F3E5C8" d="M170 196 L230 196" opacity=".5"/>
 
    <!-- tronco: camiseta com logo de dados -->
-   <path class="pap" stroke="#14120F" stroke-width="5" d="M150 148 C154 132 176 124 200 124 C224 124 246 132 250 148 L240 190 C222 198 178 198 160 190 Z"/>
+   <path class="pap" stroke="#3B2415" stroke-width="5" d="M150 148 C154 132 176 124 200 124 C224 124 246 132 250 148 L240 190 C222 198 178 198 160 190 Z"/>
    <path class="ink" d="M180 140 C188 158 212 158 220 140 C232 145 237 152 239 160 L233 190 C218 196 182 196 167 190 L161 160 C163 152 168 145 180 140 Z"/>
    <!-- gráfico de série temporal na camiseta -->
-   <path class="ol" stroke="#F1EEE4" stroke-width="3.5" opacity=".9" d="M178 176 L186 170 L193 178 L201 164 L208 172 L216 162 L222 168"/>
-   <path class="ol" stroke="#F1EEE4" stroke-width="2.5" opacity=".6" d="M178 183 L186 180 L193 185 L201 178 L208 183 L216 177 L222 181"/>
-   <path class="ol" stroke="#F1EEE4" stroke-width="4" opacity=".7" d="M166 146 Q184 134 200 138 Q216 134 234 146"/>
+   <path class="ol" stroke="#F3E5C8" stroke-width="3.5" opacity=".9" d="M178 176 L186 170 L193 178 L201 164 L208 172 L216 162 L222 168"/>
+   <path class="ol" stroke="#F3E5C8" stroke-width="2.5" opacity=".6" d="M178 183 L186 180 L193 185 L201 178 L208 183 L216 177 L222 181"/>
+   <path class="ol" stroke="#F3E5C8" stroke-width="4" opacity=".7" d="M166 146 Q184 134 200 138 Q216 134 234 146"/>
 
    <!-- braco esquerdo (flexiona) -->
    <g>
     <animateTransform attributeName="transform" type="rotate" values="0 152 150; -8 152 150; 0 152 150" dur="2.1s" repeatCount="indefinite"/>
     <path class="hose" stroke-width="24" d="M152 150 C126 156 106 168 96 184"/>
-    <path class="hose" stroke="#F1EEE4" stroke-width="16" d="M152 151 C127 157 108 168 98 183"/>
+    <path class="hose" stroke="#F3E5C8" stroke-width="16" d="M152 151 C127 157 108 168 98 183"/>
     <path class="hose" stroke-width="21" d="M96 184 C90 160 94 138 106 126"/>
-    <path class="hose" stroke="#F1EEE4" stroke-width="13" d="M97 183 C91 160 95 139 106 127"/>
+    <path class="hose" stroke="#F3E5C8" stroke-width="13" d="M97 183 C91 160 95 139 106 127"/>
     <ellipse cx="124" cy="164" rx="27" ry="19" class="limb" transform="rotate(-26 124 163)">
       <animate attributeName="rx" values="27;33;27" dur="2.1s" repeatCount="indefinite"/>
     </ellipse>
@@ -97,9 +97,9 @@
    <g>
     <animateTransform attributeName="transform" type="rotate" values="0 248 150; 8 248 150; 0 248 150" dur="2.1s" repeatCount="indefinite"/>
     <path class="hose" stroke-width="24" d="M248 150 C274 156 294 168 304 184"/>
-    <path class="hose" stroke="#F1EEE4" stroke-width="16" d="M248 151 C273 157 292 168 302 183"/>
+    <path class="hose" stroke="#F3E5C8" stroke-width="16" d="M248 151 C273 157 292 168 302 183"/>
     <path class="hose" stroke-width="21" d="M304 184 C310 160 306 138 294 126"/>
-    <path class="hose" stroke="#F1EEE4" stroke-width="13" d="M303 183 C309 160 305 139 294 127"/>
+    <path class="hose" stroke="#F3E5C8" stroke-width="13" d="M303 183 C309 160 305 139 294 127"/>
     <ellipse cx="276" cy="164" rx="27" ry="19" class="limb" transform="rotate(26 276 163)">
       <animate attributeName="rx" values="27;33;27" dur="2.1s" repeatCount="indefinite"/>
     </ellipse>
@@ -110,7 +110,7 @@
    </g>
 
    <!-- pescoco -->
-   <path class="pap" stroke="#14120F" stroke-width="5" d="M188 118 L212 118 L214 140 Q200 146 186 140 Z"/>
+   <path class="pap" stroke="#3B2415" stroke-width="5" d="M188 118 L212 118 L214 140 Q200 146 186 140 Z"/>
    <path class="gry" d="M188 124 Q200 138 212 124 L213 138 Q200 144 187 138 Z"/>
 
    <!-- cabelo atras (volumoso, em camadas) -->
@@ -123,21 +123,21 @@
      <circle cx="176" cy="112" r="16"/>
    </g>
    <!-- brilho e textura dos cachos -->
-   <g fill="none" stroke="#F1EEE4" stroke-width="4" stroke-linecap="round" opacity=".26">
+   <g fill="none" stroke="#F3E5C8" stroke-width="4" stroke-linecap="round" opacity=".26">
      <path d="M172 44 C156 56 150 74 150 94"/><path d="M228 44 C244 56 250 74 250 94"/>
      <path d="M158 80 C150 92 152 106 160 114"/><path d="M242 80 C250 92 248 106 240 114"/>
    </g>
-   <g fill="none" stroke="#3A3833" stroke-width="5" stroke-linecap="round" opacity=".55">
+   <g fill="none" stroke="#6E5432" stroke-width="5" stroke-linecap="round" opacity=".55">
      <path d="M178 52 q10 -5 16 2"/><path d="M200 42 q9 -4 18 0"/><path d="M220 54 q8 1 12 9"/>
      <path d="M160 88 q-6 8 0 16"/><path d="M240 88 q6 8 0 16"/>
    </g>
 
    <!-- orelhas (atrás do rosto) -->
-   <ellipse cx="165" cy="98" rx="5" ry="8" class="pap" stroke="#14120F" stroke-width="3"/>
-   <ellipse cx="235" cy="98" rx="5" ry="8" class="pap" stroke="#14120F" stroke-width="3"/>
+   <ellipse cx="165" cy="98" rx="5" ry="8" class="pap" stroke="#3B2415" stroke-width="3"/>
+   <ellipse cx="235" cy="98" rx="5" ry="8" class="pap" stroke="#3B2415" stroke-width="3"/>
 
    <!-- rosto -->
-   <path class="pap" stroke="#14120F" stroke-width="5" d="M168 90 C168 64 183 53 200 53 C217 53 232 64 232 90 C232 114 218 129 200 129 C182 129 168 114 168 90 Z"/>
+   <path class="pap" stroke="#3B2415" stroke-width="5" d="M168 90 C168 64 183 53 200 53 C217 53 232 64 232 90 C232 114 218 129 200 129 C182 129 168 114 168 90 Z"/>
    <path class="gry" d="M213 56 C228 64 231 96 216 121 C228 116 234 100 233 84 C232 68 225 58 213 56 Z" opacity=".3"/>
    <path class="gry" d="M182 96 C192 112 208 112 218 96 C210 120 190 120 182 96 Z" opacity=".3"/>
 
@@ -148,14 +148,14 @@
      <circle cx="166" cy="78" r="8"/><circle cx="234" cy="78" r="8"/>
      <circle cx="200" cy="56" r="9"/>
    </g>
-   <g fill="none" stroke="#F1EEE4" stroke-width="3" stroke-linecap="round" opacity=".5">
+   <g fill="none" stroke="#F3E5C8" stroke-width="3" stroke-linecap="round" opacity=".5">
      <path d="M180 54 q9 -5 18 -2"/><path d="M210 54 q9 -1 12 6"/>
      <path d="M162 74 q5 -7 12 -7"/><path d="M236 90 q4 -7 -2 -11"/>
    </g>
 
    <!-- olhos (piscam) -->
-   <ellipse cx="187" cy="96" rx="12" ry="16" class="pap" stroke="#14120F" stroke-width="4"/>
-   <ellipse cx="213" cy="96" rx="12" ry="16" class="pap" stroke="#14120F" stroke-width="4"/>
+   <ellipse cx="187" cy="96" rx="12" ry="16" class="pap" stroke="#3B2415" stroke-width="4"/>
+   <ellipse cx="213" cy="96" rx="12" ry="16" class="pap" stroke="#3B2415" stroke-width="4"/>
    <ellipse cx="190" cy="98" rx="6" ry="12" class="ink"/>
    <ellipse cx="216" cy="98" rx="6" ry="12" class="ink"/>
    <!-- brilho dos olhos -->
@@ -186,7 +186,7 @@
   <!-- balão de fala (troca de frases) -->
   <g>
    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -4; 0 0" dur="3.2s" repeatCount="indefinite"/>
-   <path class="pap" stroke="#14120F" stroke-width="5" d="M404 48 Q400 36 418 36 L700 38 Q718 36 716 52 L714 96 Q716 110 698 108 L446 107 L420 124 L426 106 Q404 108 405 94 Z"/>
+   <path class="pap" stroke="#3B2415" stroke-width="5" d="M404 48 Q400 36 418 36 L700 38 Q718 36 716 52 L714 96 Q716 110 698 108 L446 107 L420 124 L426 106 Q404 108 405 94 Z"/>
    <text x="414" y="82" class="ttl ink" font-size="18" letter-spacing="0">
      <animate attributeName="opacity" values="1;0;0;1" keyTimes="0;0.33;0.66;1" dur="9s" repeatCount="indefinite"/>
      99% DE ACC! ...ERA OVERFIT!
@@ -201,10 +201,10 @@
    </text>
   </g>
 
-  <text x="400" y="184" class="ttl" font-size="60" letter-spacing="2" fill="#F1EEE4" stroke="#14120F" stroke-width="9" paint-order="stroke">JAYVI</text>
-  <path fill="none" stroke="#14120F" stroke-width="7" stroke-linecap="round" d="M406 200 Q470 192 534 201 Q598 210 662 199 Q718 190 766 199"/>
-  <text x="408" y="238" class="sub" font-size="18">CI&#202;NCIA DE DADOS &#183; I.A &#183; PUC-CAMPINAS</text>
-  <text x="408" y="268" class="sub" font-size="15" opacity=".85">@JayV1I</text>
+  <text class="ttl" font-size="56" letter-spacing="0" fill="#F3E5C8" stroke="#3B2415" stroke-width="8" paint-order="stroke"><tspan x="404" y="184">J</tspan><tspan x="464" y="184">A</tspan><tspan x="522" y="184">Y</tspan><tspan x="580" y="184">V</tspan><tspan x="640" y="184">I</tspan></text>
+  <path fill="none" stroke="#3B2415" stroke-width="7" stroke-linecap="round" d="M406 200 Q470 192 520 201 Q560 208 610 202 Q650 196 694 201"/>
+  <text x="408" y="238" class="sub" font-size="16">CI&#202;NCIA DE DADOS &#183; I.A &#183; PUC-CAMPINAS</text>
+  <text x="408" y="266" class="sub" font-size="14" opacity=".85">@JayV1I</text>
 
   <!-- ============ FILME ============ -->
   <rect x="4" y="24" width="992" height="272" fill="url(#vig)"/>
