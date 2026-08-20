@@ -108,7 +108,7 @@ Seja bem-vindo ao meu bloco, desenhado à moda antiga! Sou **Assistente de Dados
   <img src="https://skillicons.dev/icons?i=js,ts,html,css,react,nodejs,python,git,azure,docker,postgresql&theme=light" alt="Tecnologias" />
 </p>
 
-> **Editando acima é fácil:** acesse [skillicons.dev](https://skillicons.dev), escolha suas tecnologias e copie o novo link no lugar do que está aí.
+
 
 <!-- ===== O QUE ESTOU APRENDENDO ===== -->
 ### 📚 Aprendendo agora
