@@ -16,7 +16,7 @@
 
 > **Analista de Dados e I.A | Ciência de Dados — PUC Campinas**
 >
-> Especialista em pipelines de dados end-to-end: ETL automatizado, machine learning em produção (+1,2 milhão de registros) e 33 dashboards de Power BI em clientes de logística. Focado em transformar dados brutos em decisões estratégicas com Python, Azure e CI/CD.
+> Especialista em pipelines de dados end-to-end: ETL automatizado, machine learning em produção, Power BI em clientes de logística e eficiência empresarial. Focado em transformar dados brutos em decisões estratégicas com visão estatistica utilizando Python, Azure, CI/CD e LLMs.
 
 </div>
 
