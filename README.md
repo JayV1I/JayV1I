@@ -94,7 +94,7 @@ Seja bem-vindo ao meu bloco, desenhado à moda antiga! Sou **Assistente de Dados
 | 🎓 Formação | Ciência de Dados e I.A — PUC Campinas (2023-2027) |
 | 🐍 Stack | Python, Pandas, Scikit-learn, PySpark, SQL/NoSQL |
 | ☁️ Cloud | Azure (Container Apps, Blob Storage), Docker, CI/CD |
-| 🗄️ Dados & BI | PostgreSQL, Power BI (33 dashboards), Power Automate, Excel/VBA |
+| 🗄️ Dados & BI | PostgreSQL, Mongo DB, Power BI, Power Automate, Excel/VBA |
 | 🌀 Cabelo | Cacheado, volumoso e com personalidade |
 
     </td>
