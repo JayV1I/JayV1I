@@ -43,7 +43,7 @@
 
 ### 🎬 O que você vai encontrar aqui
 
-Seja bem-vindo ao meu cantinho, desenhado à moda antiga! Sou **Assistente de Dados e I.A na CCI Gerenciamento de Riscos (CCI Gris)** e estudante de **Ciência de Dados e I.A na PUC Campinas**. Aqui você vai encontrar meus projetos, tecnologias e histórias — tudo num visual de **desenho animado clássico em preto e branco**. 🎞️
+Seja bem-vindo ao meu bloco, desenhado à moda antiga! Sou **Assistente de Dados e I.A na CCI Gerenciamento de Riscos (CCI Gris)** e estudante de **Ciência de Dados e I.A na PUC Campinas**. Aqui você vai encontrar meus projetos, tecnologias e histórias — tudo num visual de **desenho animado clássico em preto e branco**. 🎞️
 
 - 🚀 **Pipeline completo de dados**: da extração web e ETL automatizado até ML em produção
 - 🛠️ **Power BI**: responsável por 33 dashboards de produção para clientes de logística
