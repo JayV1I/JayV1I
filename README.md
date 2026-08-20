@@ -96,8 +96,6 @@ Especialista em pipelines de dados end-to-end: ETL automatizado, machine learnin
 
 </div>
 
-<h3 style="color:#2E1F10;">📊 Minhas estatísticas animadas</h3>
-
 <p align="center">
   <a href="https://github.com/JayV1I">
     <img align="center" src="https://github-readme-stats-git-masterrstaa-rztick.vercel.app/api?username=JayV1I&theme=radical&show_icons=true&hide_border=true&count_private=true&title_color=EADCC0&icon_color=F3E5C8&text_color=D9C39A&bg_color=2E1F10" alt="GitHub Stats" />
@@ -122,8 +120,6 @@ Especialista em pipelines de dados end-to-end: ETL automatizado, machine learnin
 <img src="./banner-secao-sobre.png" alt="Seção — Sobre mim" width="100%" />
 
 </div>
-
-<h3 style="color:#2E1F10;">🎞️ Sobre mim</h3>
 
 <table>
   <tr>
@@ -157,8 +153,6 @@ Especialista em pipelines de dados end-to-end: ETL automatizado, machine learnin
 
 </div>
 
-<h3 style="color:#2E1F10;">🛠️ Tecnologias que eu uso</h3>
-
 <p align="center">
   <img src="https://skillicons.dev/icons?i=js,ts,html,css,react,nodejs,python,git,azure,docker,postgresql&theme=light" alt="Tecnologias" />
 </p>
@@ -172,8 +166,6 @@ Especialista em pipelines de dados end-to-end: ETL automatizado, machine learnin
 <img src="./banner-secao-aprendendo.png" alt="Seção — Aprendendo agora" width="100%" />
 
 </div>
-
-<h3 style="color:#2E1F10;">📚 Aprendendo agora</h3>
 
 <table>
   <tr>
@@ -203,8 +195,6 @@ Especialista em pipelines de dados end-to-end: ETL automatizado, machine learnin
 
 </div>
 
-<h3 style="color:#2E1F10;">🚀 Meus projetos em destaque</h3>
-
 <h4 style="color:#3B2415;">🔹 Monitoramento da Cesta Básica (Azure & Docker)</h4>
 
 <font color="#2E1F10">Plataforma de monitoramento de preços da cesta básica com Python, ML e cloud. Dashboards interativos em Dash/Plotly, segmentação com PCA + KMeans, containerização com Docker e deploy no Azure (Container Apps, ACR, Blob Storage), com CI/CD totalmente automatizado via GitHub Actions.</font>
@@ -233,8 +223,6 @@ Especialista em pipelines de dados end-to-end: ETL automatizado, machine learnin
 
 </div>
 
-<h3 style="color:#2E1F10;">🎞️ Filmstrip de contribuições (365 dias)</h3>
-
 <p align="center">
   <a href="https://github.com/JayV1I">
     <img src="https://ghchart.rshah.org/3B2415/JayV1I" alt="Gráfico de contribuições" />
@@ -250,8 +238,6 @@ Especialista em pipelines de dados end-to-end: ETL automatizado, machine learnin
 <img src="./banner-secao-contato.png" alt="Seção — Contato — vamos fazer algo juntos!" width="100%" />
 
 </div>
-
-<h3 style="color:#2E1F10;">📬 Contato — vamos fazer algo juntos!</h3>
 
 <table>
   <tr>
