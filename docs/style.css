@@ -205,7 +205,7 @@ body::before {
 }
 .movie-list li::before { content: '🎞️ '; }
 
-/* Personagem OPACO e fiel ao estilo */
+/* Personagem OPACO e fiel ao estilo (SEM FILTROS QUE BUGAM A COR) */
 .char-container {
   text-align: center;
   position: relative;
@@ -213,7 +213,7 @@ body::before {
 .char {
   width: 260px;
   filter: drop-shadow(10px 10px 0 var(--ink));
-  opacity: 1 !important; /* Garantir opacidade total */
+  opacity: 1 !important; 
   transition: transform 0.3s;
   background: transparent;
 }
@@ -247,7 +247,7 @@ body::before {
   transform: translate(-6px, -6px);
   box-shadow: 16px 16px 0 var(--ink);
 }
-.sc-icon { font-size: 42px; display: block; margin-bottom: 15px; filter: grayscale(100%); }
+.sc-icon { font-size: 42px; display: block; margin-bottom: 15px; } /* REMOVIDO FILTRO GRAYSCALE */
 .stack-card h3 { font-family: 'Rye', serif; font-size: 22px; margin-bottom: 10px; text-transform: uppercase; }
 .stack-card p { font-size: 17px; color: var(--ink); font-weight: bold; }
 
@@ -287,10 +287,12 @@ body::before {
   text-align: center; background: #fff; color: var(--ink);
   border: 4px solid var(--ink); padding: 35px 20px;
   box-shadow: 10px 10px 0 var(--ink);
+  overflow: hidden; /* EVITAR VAZAMENTO */
 }
 .stat-num {
-  font-family: 'Rye', serif; font-size: clamp(32px, 5vw, 52px); display: block;
+  font-family: 'Rye', serif; font-size: clamp(28px, 4.5vw, 48px); display: block;
   line-height: 1.1; margin-bottom: 8px;
+  word-wrap: break-word; /* EVITAR VAZAMENTO DE NÚMEROS LONGOS */
 }
 .stat-label { font-size: 16px; font-family: 'Special Elite', monospace; font-weight: bold; text-transform: uppercase; }
 
@@ -298,8 +300,8 @@ body::before {
 .stats-widgets img {
   border: 4px solid var(--ink);
   box-shadow: 8px 8px 0 var(--ink);
-  filter: grayscale(100%);
   background: #fff;
+  max-width: 100%;
 }
 
 /* ===== contato ===== */
@@ -328,6 +330,7 @@ body::before {
   .hero-title, .section-title { -webkit-text-stroke: 1.5px #000; text-shadow: 3px 3px 0 #000; padding: 8px 16px; }
   .comic-box { padding: 18px; margin: 15px 0; }
   .char { width: 200px; }
+  .stat-num { font-size: 32px; }
 }
 
 /* ===== reveal on scroll ===== */
