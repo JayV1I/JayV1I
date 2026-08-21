@@ -12,163 +12,163 @@
 <body>
 
   <!-- Efeito de grão de filme vintage -->
-  <div class="film-grain" aria-hidden="true"></div>
-  <div class="vignette" aria-hidden="true"></div>
+  <div class="film-grain"></div>
+  <div class="vignette"></div>
 
-  <!-- ===== CABEÇALHO / MENU ===== -->
-  <header class="header" id="topo">
+  <header class="header">
     <div class="header-inner">
-      <a class="logo" href="#topo">🎬 JAYVI<span class="dot">.</span></a>
+      <a href="#" class="logo">🎬 JAYVI<span class="dot">.</span></a>
       <nav class="nav">
         <a href="#sobre">Sobre</a>
         <a href="#stack">Stack</a>
         <a href="#projetos">Projetos</a>
-        <a href="#estatisticas">Números</a>
+        <a href="#numeros">Números</a>
         <a href="#contato">Contato</a>
       </nav>
-      <a class="cta" href="https://jayv1i.github.io/curriculo/" target="_blank" rel="noopener">📄 Currículo</a>
+      <a href="https://jayv1i.github.io/curriculo/" class="cta">📄 Currículo</a>
     </div>
   </header>
 
-  <!-- ===== HERO ===== -->
-  <section class="hero">
-    <img class="hero-banner" src="assets/banner-hybrid.svg?v=noir" alt="Banner JayVi — desenho animado anos 30" />
-    <h1 class="hero-title">Bem-vindo ao meu estúdio</h1>
-    <div class="comic-box">
-      <p class="hero-sub">Direto dos anos 30, num desenho animado em preto e branco: <strong>Analista de Dados e I.A</strong> com cabelo cacheado, braços fortes e <strong>+1,2 milhão de registros</strong> de ML na bagagem.</p>
-    </div>
-    <div class="hero-badges">
-      <a href="https://github.com/JayV1I" target="_blank" rel="noopener">⭐ GitHub</a>
-      <a href="https://www.linkedin.com/in/jvitorop" target="_blank" rel="noopener">💼 LinkedIn</a>
-      <a href="mailto:Terabyteplay@gmail.com">✉️ Email</a>
-    </div>
-  </section>
+  <main>
+    <section class="hero">
+      <div class="container">
+        <img src="assets/banner-hybrid.svg" alt="JayVi Estúdio" class="hero-banner" />
+        <h1 class="hero-title">O Estúdio de Dados & I.A</h1>
+        <div class="hero-badges">
+          <a href="#projetos">Ver Portfólio</a>
+          <a href="https://github.com/JayV1I">GitHub</a>
+        </div>
+      </div>
+    </section>
 
-  <!-- ===== SOBRE ===== -->
-  <section class="section" id="sobre">
-    <div class="container">
-      <h2 class="section-title">🎬 O Cartaz da Semana</h2>
-      <div class="two-col">
-        <div class="col">
+    <section id="sobre" class="section">
+      <div class="container">
+        <h2 class="section-title">O Cartaz da Semana</h2>
+        <div class="two-col">
           <div class="comic-box">
-            <p class="lead">Sou <strong>João Vitor</strong>, Assistente de Análise de Dados e I.A na <strong>CCI Gerenciamento de Riscos (CCI Gris)</strong> e estudante de <strong>Ciência de Dados e I.A na PUC Campinas</strong> (2023–2027).</p>
-            <p>Responsável por todo o pipeline de dados: da extração web e automação de ETL até machine learning e entrega em Power BI. Aplico ML sobre dado real de produção (<strong>+1,2 milhão de registros</strong>), substituo processos manuais por automação e levo soluções de dados para a nuvem <strong>Azure</strong>.</p>
-            <ul class="movie-list">
-              <li><strong>ETL automatizado</strong> — extração web, Selenium, pandas, publicação via RPA</li>
-              <li><strong>Power BI</strong> — 33 dashboards de produção para clientes de logística</li>
-              <li><strong>ML em produção</strong> — K-Means/DBSCAN, Prophet, Random Forest, XGBoost</li>
-              <li><strong>Cloud</strong> — Azure Container Apps, ACR, Blob Storage, CI/CD com GitHub Actions</li>
-              <li><strong>Economia</strong> — ~12 horas/semana de trabalho manual eliminadas</li>
-            </ul>
+            <p class="lead">Assistente de Análise de Dados e I.A na CCI</p>
+            <p>
+              Especialista em Riscos (CCI Gris) e estudante de Ciência de Dados e Inteligência Artificial na PUC Campinas (2023-2027).
+            </p>
+            <p>
+              Minha missão é dominar o pipeline de dados: da extração web e automação à modelagem de Machine Learning e entrega em Power BI. Aplico ML sobre grandes volumes de dados (+1,2 milhão de registros), substituo processos manuais por automação e levo soluções de dados para a nuvem Azure.
+            </p>
+            <p>
+              <strong>Foco atual:</strong> Automação — extração web, Selenium, pandas, publicação via Docker e Azure.
+            </p>
+          </div>
+          <div class="char-container">
+            <img src="assets/personagem-hi.png" alt="JayVi Cartoon" class="char char-bounce" />
+            <div class="char-caption">"Alô! O assistente chegou!"</div>
           </div>
         </div>
-        <div class="col center char-container">
-          <img class="char char-bounce" src="assets/personagem-hi.png" alt="João Vitor cartoon acenando" />
-          <br>
-          <p class="char-caption">"Alô! O assistente chegou!"</p>
+      </div>
+    </section>
+
+    <section id="stack" class="section alt">
+      <div class="container">
+        <h2 class="section-title">As Ferramentas do Estúdio</h2>
+        <div class="stack-grid">
+          <div class="stack-card">
+            <span class="sc-icon">🐍</span>
+            <h3>Python & ML</h3>
+            <p>Scikit-learn, Pandas, Selenium, Automação de Processos.</p>
+          </div>
+          <div class="stack-card">
+            <span class="sc-icon">📊</span>
+            <h3>BI & SQL</h3>
+            <p>Power BI (33 Dashboards), PostgreSQL, SQL Server.</p>
+          </div>
+          <div class="stack-card">
+            <span class="sc-icon">☁️</span>
+            <h3>Cloud & Dev</h3>
+            <p>Azure, Docker, Git, CI/CD, Scripting.</p>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ===== STACK ===== -->
-  <section class="section alt" id="stack">
-    <div class="container">
-      <h2 class="section-title">🛠️ As Ferramentas do Estúdio</h2>
-      <div class="stack-grid">
-        <div class="stack-card"><span class="sc-icon"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="42" height="42" alt="Python"></span><h3>Python</h3><p>Pandas, Scikit-learn, PySpark, Prophet, Selenium</p></div>
-        <div class="stack-card"><span class="sc-icon"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="42" height="42" alt="SQL"></span><h3>SQL</h3><p>PostgreSQL, Mongo DB, T-SQL</p></div>
-        <div class="stack-card"><span class="sc-icon"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/azure/azure-original.svg" width="42" height="42" alt="Azure"></span><h3>Azure</h3><p>Container Apps, ACR, Blob Storage</p></div>
-        <div class="stack-card"><span class="sc-icon"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="42" height="42" alt="Docker"></span><h3>Docker</h3><p>Containerização e deploy</p></div>
-        <div class="stack-card"><span class="sc-icon"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="42" height="42" alt="Git"></span><h3>Git</h3><p>GitHub, CI/CD via GitHub Actions</p></div>
-        <div class="stack-card"><span class="sc-icon"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="42" height="42" alt="React"></span><h3>React / Node</h3><p>Dashboards em Dash/Plotly e React</p></div>
-        <div class="stack-card"><span class="sc-icon">📊</span><h3>Power BI</h3><p>33 dashboards, Power Automate, DAX</p></div>
-        <div class="stack-card"><span class="sc-icon">🧠</span><h3>I.A / LLMs</h3><p>Integração com LLMs e automação</p></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== PROJETOS ===== -->
-  <section class="section" id="projetos">
-    <div class="container">
-      <h2 class="section-title">🚀 Em Cartaz: Meus Projetos</h2>
-      <div class="projects">
-        <article class="project">
-          <img src="assets/personagem-codando.png" alt="Cartoon codando" />
-          <div class="project-body">
-            <h3>Monitoramento da Cesta Básica</h3>
-            <p class="tech">Azure & Docker · PUC Campinas</p>
-            <p>Plataforma de monitoramento de preços da cesta básica com Python, ML e cloud. Dashboards em Dash/Plotly, segmentação com PCA + KMeans, Docker e deploy no Azure (Container Apps, ACR, Blob Storage), CI/CD via GitHub Actions.</p>
+    <section id="projetos" class="section">
+      <div class="container">
+        <h2 class="section-title">Produções em Destaque</h2>
+        <div class="projects">
+          <div class="project">
+            <img src="https://raw.githubusercontent.com/JayV1I/JayV1I/main/docs/assets/banner-hybrid.svg" alt="Projeto ML" />
+            <div class="project-body">
+              <h3>Monitoramento da Cesta Básica</h3>
+              <p class="tech">Azure & Docker · PUC Campinas</p>
+              <p>Plataforma de monitoramento de preços da cesta básica com Python, ML e cloud. Dashboards em Dash/Plotly, segmentação com PCA + KMeans, Docker e deploy no Azure (Container Apps, ACR, Blob Storage), CI/CD via GitHub Actions.</p>
+              <a href="https://github.com/JayV1I" class="btn">Ver Roteiro</a>
+            </div>
           </div>
-        </article>
-        <article class="project">
-          <img src="assets/personagem-forcinha.png" alt="Cartoon forte" />
-          <div class="project-body">
-            <h3>Road Scan Dashboard</h3>
-            <p class="tech">CCI Gris · PostgreSQL · React</p>
-            <p>Solução ponta a ponta para análise de acidentes rodoviários no Brasil: ETL, EDA, modelagem preditiva com Random Forest, PostgreSQL e dashboard interativo em React.</p>
-          </div>
-        </article>
-        <article class="project">
-          <img src="assets/personagem-cafe.png" alt="Cartoon com café" />
-          <div class="project-body">
-            <h3>Automação RPA e ETL</h3>
-            <p class="tech">CCI Gris · Python · Power BI</p>
-            <p>Automação ponta a ponta do pipeline de ETL de logística: extração web automatizada (requests, Selenium), consolidação com pandas/openpyxl e publicação automática de dashboards no Power BI via RPA. Substitui uma rotina 100% manual, economizando ~12 horas/semana para manter 33 dashboards atualizados toda manhã.</p>
-          </div>
-        </article>
-        <article class="project">
-          <img src="assets/personagem-foguete.png" alt="Cartoon com foguete" />
-          <div class="project-body">
-            <h3>Ver todos os projetos</h3>
-            <p class="tech">GitHub · 7 repositórios públicos</p>
-            <p>De análise de gastos em saúde (IBGE, SIOPS, RAIS) a comparadores de preços — todos com código aberto e documentação.</p>
-            <a class="btn" href="https://github.com/JayV1I?tab=repositories" target="_blank" rel="noopener">Explorar no GitHub →</a>
-          </div>
-        </article>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ===== NÚMEROS ===== -->
-  <section class="section alt" id="estatisticas">
-    <div class="container">
-      <h2 class="section-title">📊 Bilheteria: Os Números</h2>
-      <div class="stats">
-        <div class="stat"><span class="stat-num" data-target="1200000">1.200.000</span><span class="stat-label">registros de ML em produção</span></div>
-        <div class="stat"><span class="stat-num" data-target="33">33</span><span class="stat-label">dashboards Power BI</span></div>
-        <div class="stat"><span class="stat-num" data-target="12">12</span><span class="stat-label">horas/semana economizadas</span></div>
-        <div class="stat"><span class="stat-num" data-target="136">136</span><span class="stat-label">contribuições no último ano</span></div>
+    <section id="numeros" class="section alt">
+      <div class="container">
+        <h2 class="section-title">Bilheteria e Resultados</h2>
+        <div class="stats">
+          <div class="stat"><span class="stat-num" data-target="1200000">1.200.000</span><span class="stat-label">registros de ML em produção</span></div>
+          <div class="stat"><span class="stat-num" data-target="33">33</span><span class="stat-label">dashboards power bi</span></div>
+          <div class="stat"><span class="stat-num" data-target="12">12</span><span class="stat-label">horas/semana economizadas</span></div>
+          <div class="stat"><span class="stat-num" data-target="136">136</span><span class="stat-label">contribuições no último ano</span></div>
+        </div>
+        <div class="stats-widgets">
+          <img src="https://github-readme-stats.vercel.app/api?username=JayV1I&show_icons=true&theme=buefy&hide_border=true&bg_color=ffffff&title_color=000000&text_color=000000&icon_color=000000" alt="GitHub Stats" loading="lazy" />
+          <img src="https://github-readme-streak-stats.herokuapp.com/?user=JayV1I&theme=buefy&hide_border=true&background=ffffff&ring=000000&fire=000000&currStreakNum=000000&sideNums=000000&currStreakLabel=000000&sideLabels=000000&dates=000000" alt="GitHub Streak" loading="lazy" />
+        </div>
       </div>
-      <div class="stats-widgets">
-        <img src="https://github-readme-stats.vercel.app/api?username=JayV1I&show_icons=true&theme=default&hide_border=false&border_color=000000&bg_color=ffffff&title_color=000000&text_color=000000&icon_color=000000" alt="GitHub Stats" loading="lazy" />
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=JayV1I&theme=default&hide_border=false&border_color=000000&background=ffffff&stroke=000000&ring=000000&fire=000000&currStreakNum=000000&sideNums=000000&currStreakLabel=000000&sideLabels=000000&dates=000000" alt="GitHub Streak" loading="lazy" />
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ===== CONTATO ===== -->
-  <section class="section" id="contato">
-    <div class="container center-col">
-      <h2 class="section-title">📬 Fim de Sessão — Vamos Trabalhar Juntos!</h2>
-      <div class="comic-box" style="text-align: center;">
-        <p class="lead">Minha porta está sempre aberta: bater um papo, montar um projeto ou só mandar um oi.</p>
+    <section id="contato" class="section">
+      <div class="container" style="text-align: center;">
+        <h2 class="section-title">Entre em Contato</h2>
+        <div class="comic-box" style="margin: 0 auto;">
+          <p style="text-align: center; font-weight: bold;">Minha porta está sempre aberta: bater um papo, montar um projeto ou só mandar um oi.</p>
+        </div>
+        <div class="contact-badges">
+          <a href="mailto:joaovitor.jayvi@gmail.com">📧 Email</a>
+          <a href="https://www.linkedin.com/in/jayvi-joaovitor/">💼 LinkedIn</a>
+          <a href="https://wa.me/5519999999999">📟 WhatsApp</a>
+          <a href="https://github.com/JayV1I">⭐ GitHub</a>
+        </div>
       </div>
-      <div class="contact-badges">
-        <a href="mailto:Terabyteplay@gmail.com">📧 Email</a>
-        <a href="https://www.linkedin.com/in/jvitorop" target="_blank" rel="noopener">💼 LinkedIn</a>
-        <a href="https://wa.me/5519996060208" target="_blank" rel="noopener">📱 WhatsApp</a>
-        <a href="https://github.com/JayV1I" target="_blank" rel="noopener">⭐ GitHub</a>
-      </div>
-    </div>
-  </section>
+    </section>
+  </main>
 
-  <!-- ===== RODAPÉ ===== -->
   <footer class="footer">
-    <p>🎞️ Estúdio JayVi — Desenhado à mão em preto e branco • Est. 2026 • <a href="https://github.com/JayV1I">@JayV1I</a></p>
-    <p class="tiny">Cabelo cacheado, volumoso e com personalidade. Tomando café e voltando pro código com força total.</p>
+    <div class="container">
+      <p>&copy; 2026 JAYVI. Todos os direitos reservados. Produzido em Noir.</p>
+      <p>Estúdio JayVi — Onde os dados ganham vida.</p>
+    </div>
   </footer>
 
-  <script src="script.js"></script>
+  <script>
+    // Animação de contagem para os números
+    const stats = document.querySelectorAll('.stat-num');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const target = parseInt(entry.target.getAttribute('data-target'));
+          let count = 0;
+          const speed = target / 50;
+          const updateCount = () => {
+            if (count < target) {
+              count += speed;
+              entry.target.innerText = Math.floor(count).toLocaleString('pt-BR');
+              setTimeout(updateCount, 20);
+            } else {
+              entry.target.innerText = target.toLocaleString('pt-BR');
+            }
+          };
+          updateCount();
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.5 });
+
+    stats.forEach(stat => observer.observe(stat));
+  </script>
 </body>
 </html>
