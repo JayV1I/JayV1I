@@ -91,12 +91,12 @@ Especialista em pipelines de dados end-to-end: ETL automatizado, machine learnin
   <h3 style="color:#000000; font-size:24px; border-bottom:3px solid #000000; display:inline-block; padding:0 20px;">📊 Bilheteria e Resultados</h3>
 </div>
 
-<p align="center" style="margin-top:20px;">
+<p align="center">
   <a href="https://github.com/JayV1I">
-    <img align="center" src="https://github-readme-stats.vercel.app/api?username=JayV1I&show_icons=true&hide_border=true&count_private=true&bg_color=FFFFFF&title_color=000000&text_color=000000&icon_color=000000&border_color=000000" alt="GitHub Stats" style="border:4px solid #000000; box-shadow:8px 8px 0 #000000;" />
+    <img src="https://github-readme-stats.vercel.app/api?username=JayV1I&show_icons=true&theme=buefy&hide_border=true&count_private=true&bg_color=ffffff&title_color=000000&text_color=000000&icon_color=000000" alt="GitHub Stats" />
   </a>
   <a href="https://github.com/JayV1I">
-    <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=JayV1I&theme=buefy&hide_border=true&background=FFFFFF&ring=000000&fire=000000&currStreakNum=000000&sideNums=000000&currStreakLabel=000000&sideLabels=000000&dates=000000&stroke=000000" alt="GitHub Streak" style="border:4px solid #000000; box-shadow:8px 8px 0 #000000;" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=JayV1I&theme=buefy&hide_border=true&background=ffffff&ring=000000&fire=000000&currStreakNum=000000&sideNums=000000&currStreakLabel=000000&sideLabels=000000&dates=000000" alt="GitHub Streak" />
   </a>
 </p>
 
