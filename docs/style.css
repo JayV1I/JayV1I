@@ -21,9 +21,12 @@ html { scroll-behavior: smooth; }
 body {
   font-family: 'IM Fell English', Georgia, serif;
   color: var(--ink);
-  /* fundo noir em toda a página, degradê de cinzas */
-  background:
-    radial-gradient(ellipse at 50% -20%, #e0e0e0 0%, #cccccc 55%, #888888 100%);
+  /* fundo de madeira noir em toda a página */
+  background: 
+    linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),
+    url('assets/wood-noir.jpg');
+  background-size: 600px;
+  background-repeat: repeat;
   background-attachment: fixed;
   min-height: 100vh;
   overflow-x: hidden;
@@ -127,7 +130,8 @@ body {
 /* ===== seções ===== */
 .section { padding: 56px 20px; }
 .section.alt {
-  background: rgba(0,0,0,0.08);
+  background: rgba(255,255,255,0.7);
+  backdrop-filter: blur(2px);
   border-top: 2px dashed var(--gry);
   border-bottom: 2px dashed var(--gry);
 }
