@@ -1,17 +1,17 @@
 /* ============================================================
    JAYVI — Estúdio de Dados & I.A
-   Estilo cartoon anos 30 (Steamboat Willie) com paleta sépia
+   Estilo cartoon anos 30 (Steamboat Willie) — Paleta NOIR (P&B)
    ============================================================ */
 
 :root {
-  --ink: #2E1F10;          /* tinta marrom-escura */
-  --ink-soft: #3B2415;
-  --paper: #F3E5C8;        /* papel envelhecido claro */
-  --paper-deep: #EADCC0;
-  --gry: #B39A70;          /* dourado acinzentado vintage */
-  --sky-low: #8C6F48;      /* tom sépia mais escuro (céu) */
-  --shadow: rgba(46, 31, 16, 0.35);
-  --film-border: #1a1008;
+  --ink: #000000;          /* preto profundo */
+  --ink-soft: #1a1a1a;
+  --paper: #e0e0e0;        /* cinza claro (papel desgastado) */
+  --paper-deep: #cccccc;
+  --gry: #888888;          /* cinza médio vintage */
+  --sky-low: #444444;      /* cinza escuro */
+  --shadow: rgba(0, 0, 0, 0.45);
+  --film-border: #0a0a0a;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -21,9 +21,9 @@ html { scroll-behavior: smooth; }
 body {
   font-family: 'IM Fell English', Georgia, serif;
   color: var(--ink);
-  /* fundo sépia em toda a página, como carta de cinema antiga */
+  /* fundo noir em toda a página, degradê de cinzas */
   background:
-    radial-gradient(ellipse at 50% -20%, #F3E5C8 0%, #EADCC0 55%, #d9c39a 100%);
+    radial-gradient(ellipse at 50% -20%, #e0e0e0 0%, #cccccc 55%, #888888 100%);
   background-attachment: fixed;
   min-height: 100vh;
   overflow-x: hidden;
@@ -33,7 +33,7 @@ body {
 /* ===== efeitos de filme ===== */
 .film-grain {
   position: fixed; inset: 0; z-index: 50; pointer-events: none;
-  opacity: 0.10;
+  opacity: 0.12;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='0.6'/%3E%3C/svg%3E");
   animation: grain 0.6s steps(3) infinite;
 }
@@ -45,7 +45,7 @@ body {
 
 .vignette {
   position: fixed; inset: 0; z-index: 49; pointer-events: none;
-  background: radial-gradient(ellipse at center, transparent 55%, rgba(26,16,8,0.45) 100%);
+  background: radial-gradient(ellipse at center, transparent 55%, rgba(0,0,0,0.6) 100%);
 }
 
 /* ===== cabeçalho ===== */
@@ -53,7 +53,7 @@ body {
   position: sticky; top: 0; z-index: 100;
   background: var(--film-border);
   border-bottom: 4px double var(--gry);
-  box-shadow: 0 8px 24px rgba(0,0,0,0.55);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.7);
 }
 .header-inner {
   max-width: 1100px; margin: 0 auto;
@@ -74,7 +74,7 @@ body {
   font-family: 'Special Elite', monospace;
 }
 .nav a:hover {
-  border-color: var(--gry); color: #fff; background: rgba(179,154,112,0.15);
+  border-color: var(--gry); color: #fff; background: rgba(255,255,255,0.1);
   transform: translateY(-2px);
 }
 
@@ -82,11 +82,11 @@ body {
   background: var(--gry); color: var(--film-border); font-weight: bold;
   text-decoration: none; padding: 8px 16px; border-radius: 4px;
   font-family: 'Special Elite', monospace; font-size: 15px;
-  box-shadow: 0 4px 0 #7a6845;
+  box-shadow: 0 4px 0 #555555;
   transition: transform 0.15s, box-shadow 0.15s;
 }
-.cta:hover { transform: translateY(-2px); box-shadow: 0 6px 0 #7a6845; }
-.cta:active { transform: translateY(2px); box-shadow: 0 2px 0 #7a6845; }
+.cta:hover { transform: translateY(-2px); box-shadow: 0 6px 0 #555555; }
+.cta:active { transform: translateY(2px); box-shadow: 0 2px 0 #555555; }
 
 /* ===== hero ===== */
 .hero {
@@ -127,7 +127,7 @@ body {
 /* ===== seções ===== */
 .section { padding: 56px 20px; }
 .section.alt {
-  background: rgba(26,16,8,0.06);
+  background: rgba(0,0,0,0.08);
   border-top: 2px dashed var(--gry);
   border-bottom: 2px dashed var(--gry);
 }
@@ -159,7 +159,7 @@ body {
 
 .char {
   width: 220px; border-radius: 12px;
-  filter: drop-shadow(0 10px 16px var(--shadow));
+  filter: grayscale(100%) drop-shadow(0 10px 16px var(--shadow));
   transition: transform 0.3s;
 }
 .char:hover { transform: rotate(-4deg) scale(1.06); }
@@ -186,7 +186,7 @@ body {
   transform: translate(-4px, -4px);
   box-shadow: 10px 10px 0 var(--ink);
 }
-.sc-icon { font-size: 34px; display: block; margin-bottom: 8px; }
+.sc-icon { font-size: 34px; display: block; margin-bottom: 8px; filter: grayscale(100%); }
 .stack-card h3 { font-family: 'Rye', serif; font-size: 19px; margin-bottom: 6px; }
 .stack-card p { font-size: 15px; color: var(--ink-soft); }
 
@@ -195,11 +195,11 @@ body {
 .project {
   background: var(--paper); border: 2px solid var(--ink); border-radius: 12px;
   overflow: hidden; display: flex; flex-direction: column;
-  box-shadow: 8px 8px 0 rgba(46,31,16,0.25);
+  box-shadow: 8px 8px 0 rgba(0,0,0,0.3);
   transition: transform 0.25s;
 }
 .project:hover { transform: translateY(-8px) rotate(-0.5deg); }
-.project img { width: 100%; height: 200px; object-fit: contain; background: var(--paper-deep); padding: 12px; }
+.project img { width: 100%; height: 200px; object-fit: contain; background: var(--paper-deep); padding: 12px; filter: grayscale(100%); }
 .project-body { padding: 18px; flex: 1; display: flex; flex-direction: column; }
 .project h3 { font-family: 'Rye', serif; font-size: 20px; margin-bottom: 4px; }
 .tech {
@@ -235,7 +235,7 @@ body {
 .stats-widgets { display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; }
 .stats-widgets img {
   border-radius: 8px; max-width: 100%; height: auto; min-width: 0;
-  object-fit: contain;
+  object-fit: contain; filter: grayscale(100%);
 }
 
 /* ===== contato ===== */
