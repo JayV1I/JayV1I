@@ -7,7 +7,7 @@
 <!-- ===== BANNER SVG INTERATIVO ===== -->
 <div align="center" id="topo">
   <a href="https://github.com/JayV1I">
-    <img src="./banner-jayv1i.svg" alt="Banner interativo — João Vitor no estilo desenho animado anos 30" width="100%" />
+    <img src="./banner-widescreen-vintage.png" alt="Banner interativo — João Vitor no estilo desenho animado anos 30" width="100%" />
   </a>
 </div>
 
