@@ -107,17 +107,16 @@ body::before {
   background: #fff;
 }
 
-/* Títulos Sólidos e Brancos (ESTILO LUCKIEST GUY) */
+/* Títulos Sólidos e Brancos */
 .hero-title, .section-title {
   font-family: 'Luckiest Guy', cursive;
-  color: #fff; /* BRANCO SÓLIDO */
+  color: #fff; 
   font-weight: normal;
   text-transform: uppercase;
   display: inline-block;
   padding: 10px 20px;
   margin-bottom: 20px;
   letter-spacing: 2px;
-  /* Efeito de sombra 3D preto e contorno sutil */
   text-shadow: 
     2px 2px 0 #000,
     4px 4px 0 #000,
@@ -286,6 +285,41 @@ body::before {
   line-height: 1.1; margin-bottom: 8px;
 }
 .stat-label { font-size: 16px; font-family: 'Special Elite', monospace; font-weight: bold; text-transform: uppercase; }
+
+.stats-widgets { 
+  display: flex; gap: 30px; justify-content: center; flex-wrap: wrap; 
+  margin-top: 40px;
+}
+.stats-widgets img {
+  border: 4px solid var(--ink);
+  box-shadow: 10px 10px 0 var(--ink);
+  background: #fff;
+  max-width: 100%;
+  height: auto;
+}
+
+/* ===== contato ===== */
+.contact-badges { 
+  display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; 
+  margin-top: 40px; width: 100%;
+}
+.contact-badges a {
+  background: #fff !important; 
+  border: 4px solid var(--ink) !important;
+  color: var(--ink) !important; 
+  text-decoration: none !important; 
+  padding: 16px 30px !important;
+  font-size: 20px !important; 
+  font-family: 'Special Elite', monospace !important;
+  box-shadow: 8px 8px 0 var(--ink) !important;
+  transition: all 0.1s !important;
+  font-weight: bold !important;
+  display: inline-block !important;
+}
+.contact-badges a:hover { 
+  transform: translate(-4px, -4px) !important; 
+  box-shadow: 12px 12px 0 var(--ink) !important; 
+}
 
 /* ===== rodapé ===== */
 .footer {
